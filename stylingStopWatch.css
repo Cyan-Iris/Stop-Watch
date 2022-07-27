@@ -1,0 +1,64 @@
+body{
+    background-image: url("image/stopwatchBackground.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+#title{
+    text-align: center;
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+}
+#time_elapse{
+    font-size:30px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: right;
+
+}
+#time_clock{
+    font-size:80px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+/*even if we have a span in here, the function of span is little, we don't need to treat it as the subelement*/
+.row{
+    margin:5px auto;
+    width:250px;
+ 
+    /*space-between: when it is the inline element and you can just set up left/irght
+      space-around:it is used for block element
+      */
+
+}
+.row .button{
+
+    padding-top:35px;
+    margin:5px 10px;
+    width:100px;
+    height:100px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    
+}
+#List{
+    width:500px;
+    margin:10px auto;
+    border-bottom: white solid;
+    display: flex;
+
+}
+.lap_Count{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+    text-align: left;
+
+}
+.num_Count{
+    font-size:20px;
+    font-family:'Courier New', Courier, monospace;
+    margin-left:200px;
+  
+}
